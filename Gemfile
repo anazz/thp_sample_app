@@ -10,6 +10,7 @@ source 'https://rubygems.org'
 #gem 'pundit'
 
 gem 'rails'
+gem 'bootstrap-sass', '3.3.7'
 gem 'puma'
 gem 'sass-rails'
 gem 'uglifier'
@@ -18,6 +19,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
 gem 'sdoc'
+
 
 group :development, :test do
   gem 'sqlite3'
@@ -39,6 +41,10 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen'
 end
+
+gem 'minitest', group: :test
+gem 'minitest-reporters', group: :test
+gem 'rails-controller-testing', group: :test
 
 group :test do
   gem 'capybara'
