@@ -19,6 +19,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
 gem 'sdoc'
+gem 'bcrypt',         '3.1.12'
 
 
 group :development, :test do
