@@ -20,6 +20,11 @@ gem 'turbolinks'
 gem 'jbuilder'
 gem 'sdoc'
 gem 'bcrypt',         '3.1.12'
+# gem faker pour generer des users afin de tester l'app
+gem 'faker',          '1.7.3'
+# gems pour la pagination
+gem 'will_paginate',           '3.1.5'
+gem 'bootstrap-will_paginate', '1.0.0'
 
 
 group :development, :test do
