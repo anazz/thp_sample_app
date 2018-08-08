@@ -29,8 +29,11 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
-#Ignore dotenv
+# Ignore dotenv
 .env
 
 # Ignore uploaded test images.
 /public/uploads
+
+# Ignore DS_Store
+.DS_Store
